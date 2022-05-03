@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Ignacio Mondinee"
+        name = "Ignacio Mondine"
         tagline = "Senior UX/UI Engineer"
         avatar = "avatar.png"
 
@@ -189,7 +189,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Lead Developer"
         dates = "2016 - 2018"
-        company = "UltraSet S.L"
+        company = "ULTRASET S.L"
         details = "Developing new products and investment services for the cryptocurrency ecosystem. User centered Software development and rapid Hardware prototyping.."
         [[params.experience.list.items]]
         details = "Lorem ipsum dolor sit amet, consectetuer."
