@@ -1,0 +1,297 @@
+# Page settings
+
+baseURL = "https://ignatmaldive.github.io"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Ignacio Mondine"
+    description = "DevResume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ignacio Mondine"
+        tagline = "Senior UX/UI Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Barcelona"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+34 642 006 586"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ignacio.mondine@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "Project Portfolio Site"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python/Ruby/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "M.Sc Interaction Design"
+        university = "Pompeu Fabra, ELISAVA"
+        dates = "2000 - 2001"
+        [[params.education.list]]
+        degree = "B.Sc Mechanical Engineering"
+        university = "Worcester Polytechnic Institute"
+        dates = "1994 - 1998"
+        [[params.education.list]]
+        degree = "Business Management"
+        university = "Instituto de Empresa (I.E.)"
+        dates = "2004"
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "NETI Award"
+        body = "Mobile AR Applications"
+        date = "2004"
+        [[params.awards.list]]
+        name = "Innova Business Idea"
+        body = "Humanoid Robotics"
+        date = "2009"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Innovation Project Lead with entrepreneurial experience in the fields of Augmented and Virtual Reality, Computer Vision, Robotics, Interaction Design, Telepresence and Mobile, Web & Blockchain Apps and Services."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Lead Developer"
+        dates = "2016 - 2018"
+        company = "UltraSet S.L"
+        details = "Developing new products and investment services for the cryptocurrency ecosystem. User centered Software development and rapid Hardware prototyping.."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2009 - 2015"
+        company = "TELETOUCH S.L."
+        details = "Leading the conception and development of novel Telepresence Systems in extensive collaboration with Telefónica's Innovation Department."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2002 - 2008"
+        company = "DAEM INTERACTIVE S.L."
+        details = "Leading a team of five Software Engineers in a Rapid-growth venture-backed Augmented Reality start-up. Conducted trials and projects with Vodafone, Orange and Telefónica."
+
+        [[params.experience.list]]
+        title = "R+D Engineer"
+        dates = "2000 - 2001"
+        company = "PROCTER&GAMBLE"
+        details = "Developing new material processing technologies for personal care consumer product manufacturing."
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Patents"
+        [[params.information.list.items]]
+        details = "2018 · Teleconference System (ES2399263B1)"
+        [[params.information.list.items]]
+        details = "2016 · Personal AR Device (US20070273644A1)"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Dancing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
