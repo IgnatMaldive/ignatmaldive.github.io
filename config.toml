@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://ignatmaldive.github.io"
+baseURL = "https://ignatmaldive.github.io/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Ignacio Mondine"
+        name = "Ignacio Mondinee"
         tagline = "Senior UX/UI Engineer"
         avatar = "avatar.png"
 
