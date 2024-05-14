@@ -1,5 +1,6 @@
 Hi 👋 My name is Nacho
-======================Software Developer and Designer-------------------------------Long descritpddkkj Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk . Long descritpddkk Long descritpddkk Long descritpddkk. Long descritpddkk.* 🌍  I'm based in barcelona* 🖥️  See my portfolio at [My Portfolio](http://myrul.com)* 🧠  I'm learning HTMX
+
+Software Developer and Designer. Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk Long descritpddkk . Long descritpddkk Long descritpddkk Long descritpddkk. Long descritpddkk.* 🌍  I'm based in barcelona* 🖥️  See my portfolio at [My Portfolio](http://myrul.com)* 🧠  I'm learning HTMX
 
 ### Skills
 
